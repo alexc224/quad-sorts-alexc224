@@ -10,7 +10,6 @@ public class SortingTester {
         Random random = new Random();
         int selection = random.nextInt(2, 7);
         int n = Math.powExact(10, selection);
-        n = 1000000;
         int[] arr = new int[n];
         for(int i = 0; i < n; i++){
             arr[i] = random.nextInt(n);
